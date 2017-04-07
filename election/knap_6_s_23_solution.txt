@@ -1,0 +1,5 @@
+Expected number of votes on Election day: 276
+Senator Darden should campaign in the following states:
+0
+9
+19

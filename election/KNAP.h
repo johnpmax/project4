@@ -52,10 +52,10 @@ public:
     void solve(){
         //std::cout << "least: " << leastCost << '\n';
         std::vector<int> visited;
-        totalVotes = knapsack(budget, numStates, visited);
+        //totalVotes = knapsack(budget, numStates, visited);
         //std::cout << "votes: " << totalVotes << '\n';
     }
-    
+    /*
     //recursively solve knapsack problem
     int knapsack(int currentBudget, int n, std::vector<int> visited){
         if(n == 0 || currentBudget < leastCost){
@@ -78,7 +78,7 @@ public:
             return maxVotes((states[n-1].votes + knapsack(currentBudget - states[n-1].cost, n-1, visited)), (knapsack(currentBudget, n-1, visCopy)));
         }
     }
-    
+    */
     //helper function to determine max
     int maxVotes(int a, int b){
         if(a >= b){

@@ -1,0 +1,22 @@
+The total campaign length is: 3934.50
+Darden should visit each state in the following order:
+0
+19
+17
+2
+12
+3
+10
+6
+1
+8
+7
+9
+11
+16
+18
+4
+13
+14
+15
+5

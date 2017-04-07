@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FCB756F1E8C4C1300224C2B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB756E1E8C4C1300224C2B /* main.cpp */; };
+		6FCB756F1E8C4C1300224C2B /* election.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB756E1E8C4C1300224C2B /* election.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6F849D891E91E56900995F97 /* knap_100.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knap_100.txt; sourceTree = "<group>"; };
+		6F849D8A1E91E58400995F97 /* knap_100_solution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knap_100_solution.txt; sourceTree = "<group>"; };
+		6F849D8B1E91E5B300995F97 /* knap_6_s_23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knap_6_s_23.txt; sourceTree = "<group>"; };
+		6F849D8C1E91E5CE00995F97 /* knap_6_s_23_solution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = knap_6_s_23_solution.txt; sourceTree = "<group>"; };
+		6F849D8D1E91E9CB00995F97 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		6F849D8F1E91F92400995F97 /* MST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MST.h; sourceTree = "<group>"; };
+		6F849D901E9209A100995F97 /* mst_sample_5000.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_5000.txt; sourceTree = "<group>"; };
+		6F849D911E920A3A00995F97 /* mst_sample_5000_solution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_5000_solution.txt; sourceTree = "<group>"; };
+		6F849D921E920B1700995F97 /* mst_sample_11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_11.txt; sourceTree = "<group>"; };
+		6F849D931E920B3100995F97 /* mst_sample_11_solution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_11_solution.txt; sourceTree = "<group>"; };
+		6F849D941E920EBE00995F97 /* mst_sample_11_out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_11_out.txt; sourceTree = "<group>"; };
+		6F849D951E92192C00995F97 /* mst_sample_5000_out.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mst_sample_5000_out.txt; sourceTree = "<group>"; };
+		6F849D961E93349700995F97 /* TSP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSP.h; sourceTree = "<group>"; };
+		6F849D971E944AF700995F97 /* tsp_example_20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tsp_example_20.txt; sourceTree = "<group>"; };
+		6F849D981E944B1300995F97 /* tsp_example_20_solution.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tsp_example_20_solution.txt; sourceTree = "<group>"; };
+		6F849D991E944E8100995F97 /* KNAP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNAP.h; sourceTree = "<group>"; };
+		6F849D9A1E95A8C000995F97 /* spec_knap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spec_knap.txt; sourceTree = "<group>"; };
 		6FCB756B1E8C4C1300224C2B /* election */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = election; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FCB756E1E8C4C1300224C2B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6FCB756E1E8C4C1300224C2B /* election.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = election.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +74,24 @@
 		6FCB756D1E8C4C1300224C2B /* election */ = {
 			isa = PBXGroup;
 			children = (
-				6FCB756E1E8C4C1300224C2B /* main.cpp */,
+				6FCB756E1E8C4C1300224C2B /* election.cpp */,
+				6F849D991E944E8100995F97 /* KNAP.h */,
+				6F849D8F1E91F92400995F97 /* MST.h */,
+				6F849D961E93349700995F97 /* TSP.h */,
+				6F849D921E920B1700995F97 /* mst_sample_11.txt */,
+				6F849D941E920EBE00995F97 /* mst_sample_11_out.txt */,
+				6F849D931E920B3100995F97 /* mst_sample_11_solution.txt */,
+				6F849D901E9209A100995F97 /* mst_sample_5000.txt */,
+				6F849D951E92192C00995F97 /* mst_sample_5000_out.txt */,
+				6F849D911E920A3A00995F97 /* mst_sample_5000_solution.txt */,
+				6F849D971E944AF700995F97 /* tsp_example_20.txt */,
+				6F849D981E944B1300995F97 /* tsp_example_20_solution.txt */,
+				6F849D8D1E91E9CB00995F97 /* State.h */,
+				6F849D891E91E56900995F97 /* knap_100.txt */,
+				6F849D8A1E91E58400995F97 /* knap_100_solution.txt */,
+				6F849D8B1E91E5B300995F97 /* knap_6_s_23.txt */,
+				6F849D8C1E91E5CE00995F97 /* knap_6_s_23_solution.txt */,
+				6F849D9A1E95A8C000995F97 /* spec_knap.txt */,
 			);
 			path = election;
 			sourceTree = "<group>";
@@ -119,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FCB756F1E8C4C1300224C2B /* main.cpp in Sources */,
+				6FCB756F1E8C4C1300224C2B /* election.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +280,7 @@
 				6FCB75741E8C4C1300224C2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
